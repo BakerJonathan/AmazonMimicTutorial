@@ -1,0 +1,121 @@
+*{
+    /* border:1px solid red; */
+    /* Unsure what font to use*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+
+a{
+    color: rgb(137, 137, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: purple;
+}
+
+
+/* Sign in box */
+.signIn{
+    font-size: xx-large;
+    margin-bottom: 8px;
+}
+
+input{
+    width: 460px; 
+    height: 31px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: rgb(196, 196, 196);  
+    margin-top: 8px;
+}
+
+
+.loginContainer{
+    height:360px;
+    
+    width: 468px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+
+
+    border:1px solid rgb(224, 224, 224);
+    align-items: center;
+    border-radius: 3px; /* slight rounding, present on all 'boxes' */
+
+    margin: auto;
+    /* Method of centering I'm using here */
+    /* Wanted to avoid bootstrap and flexbox for this assignment */
+    /* Practice 'the basics' */
+    /*       also the reason there's <br> and use of pixels */
+    margin-top: 150px;
+
+
+}
+
+.password{
+    margin-left:30px;
+}
+
+.forgotPass{
+    margin-left:200px;
+    
+}
+.needHelp{
+    margin-left: 20px;
+}
+
+/* New to Amazon?, cont is for container */
+.newCont{
+    margin: auto;
+    width: 468px;
+}
+.new{    
+    text-align: center;
+}
+
+/* I was messing around with other methods to have an inline hr, but ultimately just used ─ */
+
+/* Buttons */
+button{/* button and input wind up slightly different sizes with the same w/h, likely due to something like padding*/
+    width: 468px; 
+    height: 34px;
+    border-radius: 3px;
+    border-width: 1px;
+    
+}
+
+.continue{
+    background-color: rgb(255, 197, 90);
+    border-color: gray;
+    margin-bottom: 16px;
+}
+.continue:hover{
+    background-color: orange;
+
+}
+
+.creAcc{
+    background-color: rgb(236, 237, 241);
+    border-color: rgb(196, 196, 196);
+    margin-bottom: 70px;
+}
+.creAcc:hover{
+    background-color:rgb(212, 213, 219);
+}
+
+/* Footer */
+.footCont{
+    margin:auto;
+    width: 380px;
+}
+
+.privacy,.help{
+    margin-left: 40px;
+}
+
+.copy{
+    text-align: center;
+}
